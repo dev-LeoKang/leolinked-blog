@@ -21,11 +21,8 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "강형구 | Backend Engineer",
-    description: "Backend Engineer Portfolio",
-    images: ["/og.png"],
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
