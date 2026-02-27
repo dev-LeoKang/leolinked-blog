@@ -18,7 +18,7 @@ export default function Hero() {
           <h1 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">
             {profile.headline}
           </h1>
-          <p className="mt-5 max-w-2xl text-base leading-relaxed text-neutral-800">
+          <p className="mt-5 max-w-2xl text-base leading-relaxed text-neutral-800 whitespace-pre-line">
             {profile.intro}
           </p>
         </div>
