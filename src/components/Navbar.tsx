@@ -17,7 +17,7 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm text-white hover:text-neutral-900"
+              className="text-sm text-white hover:text-gray-300"
             >
               {l.label}
             </a>
