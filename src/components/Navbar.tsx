@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className="sticky top-0 z-50 border-b border-neutral-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-3">
         <a href="#" className="text-sm font-semibold tracking-tight">
-          Portpolio
+          Portfolio
         </a>
 
         <nav className="flex gap-4">
