@@ -1,0 +1,30 @@
+const links = [
+  { label: "About", href: "#about" },
+  { label: "Projects", href: "#projects" },
+  { label: "Stack", href: "#tech" },
+  { label: "Contact", href: "#contact" },
+];
+
+export default function Navbar() {
+  return (
+    <div className="sticky top-0 z-50 border-b border-neutral-200 bg-white/80 backdrop-blur">
+      <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-3">
+        <a href="#" className="text-sm font-semibold tracking-tight">
+          Portpolio
+        </a>
+
+        <nav className="flex gap-4">
+          {links.map((l) => (
+            <a
+              key={l.href}
+              href={l.href}
+              className="text-sm text-neutral-600 hover:text-neutral-900"
+            >
+              {l.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </div>
+  );
+}
