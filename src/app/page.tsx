@@ -30,11 +30,11 @@ export default function Home() {
         <TechStack />
       </Section>
 
-      <Section id="contact" title="Contact" subtitle="가장 빠른 채널로 연결됩니다.">
+      <Section id="contact" title="Contact" subtitle="">
         <div className="flex flex-wrap gap-3">
           <a
             className="rounded-lg border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-50"
-            href="https://github.com/"
+            href="https://github.com/dev-LeoKang"
             target="_blank"
             rel="noreferrer"
           >
@@ -42,11 +42,19 @@ export default function Home() {
           </a>
           <a
             className="rounded-lg border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-50"
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/leoKang-85511122b"
             target="_blank"
             rel="noreferrer"
           >
             LinkedIn
+          </a>
+          <a
+            className="rounded-lg border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-50"
+            href="https://www.instagram.com/h9._.k/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Instagram
           </a>
         </div>
       </Section>
