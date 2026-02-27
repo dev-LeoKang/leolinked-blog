@@ -21,21 +21,6 @@ export default function Hero() {
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-neutral-800">
             {profile.intro}
           </p>
-
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href="#projects"
-              className="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800"
-            >
-              프로젝트 보기
-            </a>
-            <a
-              href="#contact"
-              className="rounded-lg border border-neutral-300 bg-white/70 px-4 py-2 text-sm font-medium hover:bg-white"
-            >
-              연락하기
-            </a>
-          </div>
         </div>
       </div>
     </header>
