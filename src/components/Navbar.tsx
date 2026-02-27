@@ -1,8 +1,7 @@
 const links = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
-  { label: "Stack", href: "#tech" },
-  { label: "Contact", href: "#contact" },
+  { label: "Stack", href: "#tech" }
 ];
 
 export default function Navbar() {
